@@ -1,0 +1,28 @@
+{
+    "dataset": "acl",
+    "train_path": "path_to/train.json",
+    "val_path": "path_to/val.json",
+    "contexts_path": "path_to/contexts_200.json",
+    "papers_path": "path_to/papers.json",
+    "embeddings_path": "path_to/ai2_embeddings.txt",
+    "models_folder": "path_to/models",
+    "predictions_folder": "path_to/predictions",
+
+    "rnn_num_layers": 1,
+    "rnn_hidden_size": 100,
+    "pad_token_id": 504339,
+
+    "cnn_kernel_size": [1, 2],
+    "cnn_out_channels": [50, 50],
+
+    "author_embedding_dim": 50,
+    "author_embedding_num": 4564,
+    "pad_author_id": 4563,
+    "citations_dim": 5,
+
+    "num_epochs": 10,
+    "train_queries_per_batch": 6,
+    "random_negs": 50,
+    "triplets_batch_size": 300,
+    "margin": 0.3
+}
