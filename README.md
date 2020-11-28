@@ -44,7 +44,7 @@ Make sure you fill out all the relevant fields in the config JSON file.
 To generate predictions on test files with 'DualEnh-ws' variant of the model, run the following command:
 
 ```eval
-python predict.py <path_to_config_json> model_name -dual -global_info -weighted_sum <path_to_input_file>
+python predict.py <path_to_config_json> <path_to_saved_model> -dual -global_info -weighted_sum <path_to_input_file>
 ```
 
 
