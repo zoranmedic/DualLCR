@@ -1,0 +1,18 @@
+{
+    "A00-1004": {
+        "title": "Automatic construction of parallel English-Chinese corpus for\ncross-language information retrieval",
+        "abstract": "A major obstacle to the construction of a probabilistic translation model is the lack of large parallel corpora. In this paper we first describe a parallel text mining system that finds parallel texts automatically on the Web. The generated Chinese-English parallel corpus is used to train a probabilistic translation model which translates queries for Chinese-English cross-language information retrieval (CLIR). We will discuss some problems in translation model training and show the preliminary CUR results."
+    },
+    "A00-1007": {
+        "title": "Distilling dialogues - A method using natural dialogue corpora for\ndialogue systems development",
+        "abstract": "We report on a method for utilising corpora collected in natural settings. It is based on distilling (re-writing) natural dialogues to elicit the type of dialogue that would occur if one the dialogue participants was a computer instead of a human. The method is a complement to other means such as Wizard of Oz-studies and un-distilled natural dialogues. We present the distilling method and guidelines for distillation. We also illustrate how the method affects a corpus of dialogues and discuss the pros and cons of three approaches in different phases of dialogue systems development."
+    },
+    "P91-1022": {
+        "title": "ALIGNING SENTENCES IN PARALLEL CORPORA",
+        "abstract": "In this paper we describe a statistical technique for aligning sentences with their translations in two parallel corpora. In addition to certain anchor points that are available in our data, the only information about the sentences that we use for calculating alignments is the number of tokens that they contain. Because we make no use of the lexical details of the sentence, the alignment computation is fast and therefore practical for application to very large collections of text. We have used this technique to align several million sentences in the English-French Hansard corpora and have achieved an accuracy in excess of 99% in a random selected set of 1000 sentence pairs that we checked by hand. We show that even without the benefit of anchor points the correlation between the lengths of aligned sentences is strong enough that we should expect to achieve an accuracy of between 96% and 97%. Thus, the technique may be applicable to a wider variety of texts than we have yet tried."
+    },
+    "P97-1035": {
+        "title": "PARADISE: A Framework for Evaluating Spoken Dialogue Agents",
+        "abstract": "This paper presents PARADISE (PARAdigm for DIalogue System Evaluation), a general framework for evaluating spoken rlialogue agents. The framework decouples task requirements from an agent's dialogue behaviors, supports comparisons among dialogue strategies, enables the calculation of performance over subdialogues and whole dialogues, specifies the relative contribution of various factors to performance, and makes it possible to compare agents performing different tasks by normalizing for task complexity."
+    }
+}

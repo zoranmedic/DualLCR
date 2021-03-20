@@ -22,11 +22,15 @@ git clone git@github.com:zoranmedic/DualLCR.git
 
 conda env create -f environment.yml
 
-conda activate testenv
+conda activate scicite
 
 python -m spacy download en_core_web_sm
 
 ```
+
+## Data preprocessing
+
+If you'd like to preprocess your own data instances (both contexts and articles) for using with the model, check out [these instructions](https://github.com/zoranmedic/DualLCR/sample_data/README.md).
 
 ## Training
 
