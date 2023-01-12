@@ -98,8 +98,6 @@ def main(args):
             batch_loss.backward()
             optimizer.step()
 
-            break
-
         with torch.no_grad():
             validation_loss = 0.
             for i, (batch, _) in enumerate(val_dataloader):
@@ -110,7 +108,6 @@ def main(args):
                     device=device)
                 validation_loss += batch_loss
 
-                break
             logging.info(f'Avg validation loss in epoch {epoch + 1}: {validation_loss / (i + 1)}')
 
             if validation_loss < best_validation_loss:
